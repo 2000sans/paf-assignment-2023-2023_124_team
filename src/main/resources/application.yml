@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      uri : mongodb+srv://paf-username:paf-password@paf-db.c7i8thm.mongodb.net/?retryWrites=true&w=majority
+      database : RootCollection
