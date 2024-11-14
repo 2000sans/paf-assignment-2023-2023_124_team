@@ -6,16 +6,15 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "comments")
+@Document(collection = "notifications")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Comment {
+public class Notification {
     @Id
-    private String commentId;
-    private String commentDescription;
-    private String commentUserId;
-    private String commentPostId;
-    private String commentHref;
-    private String commentSelf;
+    private String notificationId;
+    private String notificationUserId;
+    private String notificationPostId;
+    private String notificationHref;
+    private String notificationSelf;
 }

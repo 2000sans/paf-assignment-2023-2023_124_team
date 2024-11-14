@@ -33,6 +33,8 @@ public class RandomIdGenerator {
             var3.insert(0,"post-");
         else if(param.equals("comment"))
             var3.insert(0,"comment-");
+        else if(param.equals("notification"))
+            var3.insert(0,"notification-");
         else
             var3.insert(0,"default-");
 
