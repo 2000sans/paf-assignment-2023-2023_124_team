@@ -31,6 +31,8 @@ public class RandomIdGenerator {
             var3.insert(0,"client-");
         else if(param.equals("post"))
             var3.insert(0,"post-");
+        else if(param.equals("comment"))
+            var3.insert(0,"comment-");
         else
             var3.insert(0,"default-");
 
