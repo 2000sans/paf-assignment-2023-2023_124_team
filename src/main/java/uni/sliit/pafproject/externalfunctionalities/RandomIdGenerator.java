@@ -29,6 +29,8 @@ public class RandomIdGenerator {
             var3.insert(0,"admin-");
         else if(param.equals("client"))
             var3.insert(0,"client-");
+        else if(param.equals("post"))
+            var3.insert(0,"post-");
         else
             var3.insert(0,"default-");
 
