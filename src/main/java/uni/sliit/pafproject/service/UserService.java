@@ -1,7 +1,6 @@
 package uni.sliit.pafproject.service;
 
 
-
 import uni.sliit.pafproject.externalfunctionalities.RandomIdGenerator;
 import uni.sliit.pafproject.model.User;
 import uni.sliit.pafproject.repository.UserRepository;
@@ -60,8 +59,5 @@ public class UserService {
         return userId + " user deleted from database";
     }
 
-    public boolean userExists(String username) {
-        return user_repository.existsByUsername(username);
-    }
 
 }

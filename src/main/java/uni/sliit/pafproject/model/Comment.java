@@ -6,17 +6,16 @@ import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "users")
+@Document(collection = "comments")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class Comment {
     @Id
-    private String userId;
-    private String userType;
-    private String userName;
-    private String userPassword;
-    private String userLoginState;
-    private String userHref;
-    private String userSelf;
+    private String commentId;
+    private String commentDescription;
+    private String commentUserId;
+    private String commentPostId;
+    private String commentHref;
+    private String commentSelf;
 }
